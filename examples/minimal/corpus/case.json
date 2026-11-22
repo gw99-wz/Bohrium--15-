@@ -1,0 +1,8 @@
+{
+  "case_id": "example-minimal-1",
+  "challenge_id": "product-arena-10-760d1a0b",
+  "instruction": "Build an evidence-bound knowledge graph over the two supplied papers and answer at least three real queries.",
+  "output_contract": {
+    "fields": ["case_id", "sources", "graph", "queries", "evidence", "run", "uncertainty", "quality_control"]
+  }
+}

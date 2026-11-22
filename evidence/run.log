@@ -1,0 +1,5 @@
+status=success
+mode=skill
+counts={"nodes": 97, "edges": 21, "mentions": 253, "queries": 4, "rejected_quotes": 0, "merges": 5, "must_not_merge": 3}
+limit: entities came from the rule extractor: researcher and task coverage is lexicon-bound, so a production run should pass --draft authored from the papers
+limit: locators are corpus JATS paragraph ids; this Skill never emits a PDF page number

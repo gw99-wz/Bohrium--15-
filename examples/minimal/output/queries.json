@@ -1,0 +1,180 @@
+[
+  {
+    "id": "Q1-shared-concepts",
+    "question": "Which concepts appear in both papers, and what is the evidence in each?",
+    "kind": "cross_paper_overlap",
+    "executed": true,
+    "subgraph": {
+      "nodes": [
+        "node:5626c00bdb74"
+      ]
+    },
+    "answers": [
+      {
+        "node": "node:5626c00bdb74",
+        "label": "WS2",
+        "type": "material",
+        "per_source": {
+          "EX-A": [
+            "EX-A#ex-a-p1",
+            "EX-A#ex-a-p2"
+          ],
+          "EX-B": [
+            "EX-B#ex-b-p1"
+          ]
+        }
+      }
+    ],
+    "answer_count": 1,
+    "undetermined": [
+      {
+        "question": "Does the shared term mean the same physical sample / instance?",
+        "status": "undetermined",
+        "reason": "the corpus states no shared sample id, substrate batch, or dataset identifier; a shared generic term only fixes the KIND of object",
+        "rule": "references/entity-types.json cross_paper_rule"
+      }
+    ],
+    "evidence": [
+      "EX-A#ex-a-p1",
+      "EX-A#ex-a-p2",
+      "EX-B#ex-b-p1"
+    ]
+  },
+  {
+    "id": "Q2-method-usage",
+    "question": "Which methods does each paper use, on what object, and under what stated conditions?",
+    "kind": "relation_traversal",
+    "executed": true,
+    "subgraph": {
+      "nodes": [
+        "node:5a01c4985e70",
+        "node:09fdbbd75030",
+        "node:5626c00bdb74"
+      ]
+    },
+    "answers": [
+      {
+        "node": "node:5a01c4985e70",
+        "label": "photoluminescence spectroscopy",
+        "sources": [
+          "EX-A"
+        ],
+        "relations": [
+          {
+            "type": "uses",
+            "object": "WS2",
+            "conditions": [],
+            "evidence_strength": "direct",
+            "locator": "EX-A#ex-a-p1"
+          }
+        ]
+      },
+      {
+        "node": "node:09fdbbd75030",
+        "label": "studied with photoluminescence spectroscopy",
+        "sources": [
+          "EX-B"
+        ],
+        "relations": [
+          {
+            "type": "uses",
+            "object": "WS2",
+            "conditions": [
+              "under 4 K"
+            ],
+            "evidence_strength": "indirect",
+            "locator": "EX-B#ex-b-p1"
+          }
+        ]
+      }
+    ],
+    "answer_count": 2,
+    "non_empty": 2,
+    "undetermined": [
+      {
+        "question": "Were identical instrument settings used across papers?",
+        "status": "undetermined",
+        "reason": "settings are reported paper-locally and are not comparable across papers unless both state them"
+      }
+    ],
+    "evidence": [
+      "EX-A#ex-a-p1",
+      "EX-B#ex-b-p1"
+    ]
+  },
+  {
+    "id": "Q3-cross-paper-metric-comparison",
+    "question": "Can the two papers be compared on a shared metric?",
+    "kind": "refusal_with_evidence",
+    "executed": true,
+    "subgraph": {
+      "nodes": [
+        "node:b83e1efc86c3",
+        "node:ca909cb41673",
+        "node:6e4b250e3ffe"
+      ]
+    },
+    "answers": [
+      {
+        "source_id": "EX-A",
+        "metrics": [
+          {
+            "label": "neutral exciton = 2.03 eV",
+            "node": "node:ca909cb41673",
+            "locator": "EX-A#ex-a-p1"
+          }
+        ]
+      },
+      {
+        "source_id": "EX-B",
+        "metrics": [
+          {
+            "label": "higher photoluminescence intensity = 4 K",
+            "node": "node:b83e1efc86c3",
+            "locator": "EX-B#ex-b-p2"
+          },
+          {
+            "label": "neutral exciton = 2.10 eV",
+            "node": "node:6e4b250e3ffe",
+            "locator": "EX-B#ex-b-p1"
+          }
+        ]
+      }
+    ],
+    "answer_count": 2,
+    "undetermined": [
+      {
+        "question": "Is metric A in paper 1 comparable with metric B in paper 2?",
+        "status": "refused",
+        "reason": "the two papers differ in sample, treatment, and stated conditions; no shared sample or identical setting is reported, so a single comparative conclusion is not supported",
+        "rule": "task input revision: never combine conditions, samples or numeric results of different papers into one conclusion",
+        "what_would_be_needed": "the same sample id plus the same measurement setting reported in both papers"
+      }
+    ],
+    "evidence": [
+      "EX-B#ex-b-p2",
+      "EX-A#ex-a-p1",
+      "EX-B#ex-b-p1"
+    ]
+  },
+  {
+    "id": "Q4-conflicts",
+    "question": "Which statements conflict, inside a paper or across the pair?",
+    "kind": "conflict_scan",
+    "executed": true,
+    "subgraph": {
+      "edges": []
+    },
+    "answers": [],
+    "answer_count": 0,
+    "undetermined": [
+      {
+        "question": "Does the corpus contain no conflicting statements?",
+        "status": "undetermined",
+        "reason": "no contradiction met the evidence bar, which is not the same as the papers agreeing; an explicit conflict may be phrased outside the cue set",
+        "human_takeover": "read the discussion sections against each other before asserting agreement"
+      }
+    ],
+    "evidence": []
+  }
+]

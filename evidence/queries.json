@@ -1,0 +1,723 @@
+[
+  {
+    "id": "Q1-shared-concepts",
+    "question": "Which concepts appear in both papers, and what is the evidence in each?",
+    "kind": "cross_paper_overlap",
+    "executed": true,
+    "subgraph": {
+      "nodes": [
+        "node:ad00aa4b9bf6",
+        "node:f620ea0c08e4",
+        "node:b674a9a85fa9"
+      ]
+    },
+    "answers": [
+      {
+        "node": "node:ad00aa4b9bf6",
+        "label": "TMDs",
+        "type": "material",
+        "per_source": {
+          "PMC13495497": [
+            "PMC13495497#PMC13495497.abstract.p001",
+            "PMC13495497#PMC13495497.s0.p001",
+            "PMC13495497#PMC13495497.s0.p004",
+            "PMC13495497#PMC13495497.s0.p008"
+          ],
+          "PMC12312154": [
+            "PMC12312154#PMC12312154.s0.p001",
+            "PMC12312154#PMC12312154.s0.p002",
+            "PMC12312154#PMC12312154.s1.p026"
+          ]
+        }
+      },
+      {
+        "node": "node:f620ea0c08e4",
+        "label": "monolayer WS2",
+        "type": "material",
+        "per_source": {
+          "PMC13495497": [
+            "PMC13495497#PMC13495497.abstract.p001",
+            "PMC13495497#PMC13495497.s0.p001",
+            "PMC13495497#PMC13495497.s0.p002",
+            "PMC13495497#PMC13495497.s0.p004",
+            "PMC13495497#PMC13495497.s0.p009",
+            "PMC13495497#PMC13495497.s0.p010"
+          ],
+          "PMC12312154": [
+            "PMC12312154#PMC12312154.abstract.p001",
+            "PMC12312154#PMC12312154.s0.p004",
+            "PMC12312154#PMC12312154.s1.p005",
+            "PMC12312154#PMC12312154.s1.p007",
+            "PMC12312154#PMC12312154.s1.p011",
+            "PMC12312154#PMC12312154.s1.p019",
+            "PMC12312154#PMC12312154.s1.p021",
+            "PMC12312154#PMC12312154.s1.p025",
+            "PMC12312154#PMC12312154.s1.p026",
+            "PMC12312154#PMC12312154.s3.p027",
+            "PMC12312154#PMC12312154.s3.p028",
+            "PMC12312154#PMC12312154.s3.p029",
+            "PMC12312154#fig1",
+            "PMC12312154#fig2",
+            "PMC12312154#fig3"
+          ]
+        }
+      },
+      {
+        "node": "node:b674a9a85fa9",
+        "label": "single-photon emission",
+        "type": "task",
+        "per_source": {
+          "PMC13495497": [
+            "PMC13495497#PMC13495497.s0.p002",
+            "PMC13495497#PMC13495497.s0.p010"
+          ],
+          "PMC12312154": [
+            "PMC12312154#PMC12312154.abstract.p001"
+          ]
+        }
+      }
+    ],
+    "answer_count": 3,
+    "undetermined": [
+      {
+        "question": "Does the shared term mean the same physical sample / instance?",
+        "status": "undetermined",
+        "reason": "the corpus states no shared sample id, substrate batch, or dataset identifier; a shared generic term only fixes the KIND of object",
+        "rule": "references/entity-types.json cross_paper_rule"
+      }
+    ],
+    "evidence": [
+      "PMC13495497#PMC13495497.abstract.p001",
+      "PMC13495497#PMC13495497.s0.p001",
+      "PMC13495497#PMC13495497.s0.p001",
+      "PMC13495497#PMC13495497.s0.p001",
+      "PMC13495497#PMC13495497.s0.p001",
+      "PMC13495497#PMC13495497.s0.p001",
+      "PMC13495497#PMC13495497.s0.p004",
+      "PMC13495497#PMC13495497.s0.p008",
+      "PMC12312154#PMC12312154.s0.p001",
+      "PMC12312154#PMC12312154.s0.p001",
+      "PMC12312154#PMC12312154.s0.p002",
+      "PMC12312154#PMC12312154.s1.p026",
+      "PMC13495497#PMC13495497.abstract.p001",
+      "PMC13495497#PMC13495497.abstract.p001",
+      "PMC13495497#PMC13495497.s0.p001",
+      "PMC13495497#PMC13495497.s0.p001",
+      "PMC13495497#PMC13495497.s0.p002",
+      "PMC13495497#PMC13495497.s0.p002",
+      "PMC13495497#PMC13495497.s0.p004",
+      "PMC13495497#PMC13495497.s0.p009",
+      "PMC13495497#PMC13495497.s0.p009",
+      "PMC13495497#PMC13495497.s0.p009",
+      "PMC13495497#PMC13495497.s0.p009",
+      "PMC13495497#PMC13495497.s0.p010",
+      "PMC13495497#PMC13495497.s0.p010",
+      "PMC13495497#PMC13495497.s0.p010",
+      "PMC13495497#PMC13495497.s0.p010",
+      "PMC13495497#PMC13495497.s0.p010",
+      "PMC12312154#PMC12312154.abstract.p001",
+      "PMC12312154#PMC12312154.s0.p004",
+      "PMC12312154#PMC12312154.s1.p005",
+      "PMC12312154#PMC12312154.s1.p005",
+      "PMC12312154#PMC12312154.s1.p005",
+      "PMC12312154#PMC12312154.s1.p005",
+      "PMC12312154#fig1",
+      "PMC12312154#fig1",
+      "PMC12312154#PMC12312154.s1.p007",
+      "PMC12312154#PMC12312154.s1.p007",
+      "PMC12312154#PMC12312154.s1.p007",
+      "PMC12312154#PMC12312154.s1.p007",
+      "PMC12312154#fig2",
+      "PMC12312154#fig2",
+      "PMC12312154#fig3",
+      "PMC12312154#PMC12312154.s1.p011",
+      "PMC12312154#PMC12312154.s1.p019",
+      "PMC12312154#PMC12312154.s1.p021",
+      "PMC12312154#PMC12312154.s1.p021",
+      "PMC12312154#PMC12312154.s1.p025",
+      "PMC12312154#PMC12312154.s1.p026",
+      "PMC12312154#PMC12312154.s3.p027",
+      "PMC12312154#PMC12312154.s3.p027",
+      "PMC12312154#PMC12312154.s3.p028",
+      "PMC12312154#PMC12312154.s3.p029",
+      "PMC13495497#PMC13495497.s0.p002",
+      "PMC13495497#PMC13495497.s0.p010",
+      "PMC12312154#PMC12312154.abstract.p001"
+    ]
+  },
+  {
+    "id": "Q2-method-usage",
+    "question": "Which methods does each paper use, on what object, and under what stated conditions?",
+    "kind": "relation_traversal",
+    "executed": true,
+    "subgraph": {
+      "nodes": [
+        "node:58856263cad4",
+        "node:9a7f225d1bcb",
+        "node:501166f4ec3a",
+        "node:7663b48ab2a8",
+        "node:c011a29804ab",
+        "node:10e795c7e43d",
+        "node:883246138a2a",
+        "node:2a96e1761622",
+        "node:b0bea58c3096",
+        "node:ae6e619a6605",
+        "node:e354518cb1d4",
+        "node:0a9f60465467",
+        "node:3e4a9f90cd05",
+        "node:c2204e3c6a13",
+        "node:0faf55352db1",
+        "node:ed87b70ab22a",
+        "node:9b2376e95629",
+        "node:653b451f28fb",
+        "node:b95deef3579c",
+        "node:a6fbe4d9d063",
+        "node:76904706e146",
+        "node:36ce5beaf78b",
+        "node:c2e6cec98ebb",
+        "node:ce7413d48d06",
+        "node:ceca19ab857e",
+        "node:8db71fa26ce8",
+        "node:34a7871c7f5a",
+        "node:2f107c544e21",
+        "node:5cce9f1c3030",
+        "node:67aa5996e56c",
+        "node:6ba046f35269",
+        "node:7557abb7168b",
+        "node:aa07af4eb083",
+        "node:aa2704ad80cc",
+        "node:c1b673523e1e",
+        "node:c2ee42058c53",
+        "node:f620ea0c08e4",
+        "node:fdf0ff2e6ff9"
+      ]
+    },
+    "answers": [
+      {
+        "node": "node:58856263cad4",
+        "label": "account for the treatment",
+        "sources": [
+          "PMC12312154"
+        ],
+        "relations": []
+      },
+      {
+        "node": "node:9a7f225d1bcb",
+        "label": "atomic force spectroscopy",
+        "sources": [
+          "PMC13495497"
+        ],
+        "relations": []
+      },
+      {
+        "node": "node:501166f4ec3a",
+        "label": "broadband impulsive vibrational spectroscopy",
+        "sources": [
+          "PMC12312154"
+        ],
+        "relations": [
+          {
+            "type": "uses",
+            "object": "IVS",
+            "conditions": [],
+            "evidence_strength": "direct",
+            "locator": "PMC12312154#PMC12312154.s0.p003"
+          }
+        ]
+      },
+      {
+        "node": "node:7663b48ab2a8",
+        "label": "can exclude any treatment",
+        "sources": [
+          "PMC12312154"
+        ],
+        "relations": []
+      },
+      {
+        "node": "node:c011a29804ab",
+        "label": "contributions from defect-phonon scattering",
+        "sources": [
+          "PMC12312154"
+        ],
+        "relations": []
+      },
+      {
+        "node": "node:10e795c7e43d",
+        "label": "difference spectra the treatment",
+        "sources": [
+          "PMC12312154"
+        ],
+        "relations": []
+      },
+      {
+        "node": "node:883246138a2a",
+        "label": "IVS",
+        "sources": [
+          "PMC12312154"
+        ],
+        "relations": [
+          {
+            "type": "uses",
+            "object": "IVS",
+            "conditions": [],
+            "evidence_strength": "direct",
+            "locator": "PMC12312154#PMC12312154.s1.p026"
+          },
+          {
+            "type": "characterizes",
+            "object": "IVS",
+            "conditions": [
+              "room temperature"
+            ],
+            "evidence_strength": "direct",
+            "locator": "PMC12312154#PMC12312154.s3.p031"
+          },
+          {
+            "type": "measures",
+            "object": "temporal resolution = 10 fs",
+            "conditions": [
+              "room temperature"
+            ],
+            "evidence_strength": "direct",
+            "locator": "PMC12312154#PMC12312154.s3.p031"
+          }
+        ]
+      },
+      {
+        "node": "node:2a96e1761622",
+        "label": "STM",
+        "sources": [
+          "PMC13495497"
+        ],
+        "relations": [
+          {
+            "type": "uses",
+            "object": "STS",
+            "conditions": [],
+            "evidence_strength": "indirect",
+            "locator": "PMC13495497#PMC13495497.s0.p009"
+          },
+          {
+            "type": "uses",
+            "object": "STM",
+            "conditions": [],
+            "evidence_strength": "indirect",
+            "locator": "PMC13495497#PMC13495497.s0.p009"
+          }
+        ]
+      },
+      {
+        "node": "node:b0bea58c3096",
+        "label": "films with postgrowth treatment",
+        "sources": [
+          "PMC12312154"
+        ],
+        "relations": [
+          {
+            "type": "uses",
+            "object": "MoS2",
+            "conditions": [],
+            "evidence_strength": "indirect",
+            "locator": "PMC12312154#PMC12312154.s1.p005"
+          }
+        ]
+      },
+      {
+        "node": "node:ae6e619a6605",
+        "label": "impulsive stimulated Raman scattering",
+        "sources": [
+          "PMC12312154"
+        ],
+        "relations": []
+      },
+      {
+        "node": "node:e354518cb1d4",
+        "label": "impulsive vibrational spectroscopy",
+        "sources": [
+          "PMC12312154"
+        ],
+        "relations": [
+          {
+            "type": "uses",
+            "object": "monolayer WS2",
+            "conditions": [],
+            "evidence_strength": "direct",
+            "locator": "PMC12312154#PMC12312154.abstract.p001"
+          }
+        ]
+      },
+      {
+        "node": "node:0a9f60465467",
+        "label": "n-BuLi treatment",
+        "sources": [
+          "PMC12312154"
+        ],
+        "relations": [
+          {
+            "type": "measures",
+            "object": "emission = 2.03 eV",
+            "conditions": [],
+            "evidence_strength": "indirect",
+            "locator": "PMC12312154#PMC12312154.s1.p005"
+          },
+          {
+            "type": "uses",
+            "object": "BuLi",
+            "conditions": [],
+            "evidence_strength": "indirect",
+            "locator": "PMC12312154#PMC12312154.s1.p005"
+          },
+          {
+            "type": "supports",
+            "object": "Consistent with a reduction in trion population due to a suppressed n-type doping",
+            "conditions": [],
+            "evidence_strength": "direct",
+            "locator": "PMC12312154#PMC12312154.s1.p005"
+          }
+        ]
+      },
+      {
+        "node": "node:3e4a9f90cd05",
+        "label": "noncontact atomic force microscopy",
+        "sources": [
+          "PMC13495497"
+        ],
+        "relations": [
+          {
+            "type": "uses",
+            "object": "monolayer WS2",
+            "conditions": [],
+            "evidence_strength": "indirect",
+            "locator": "PMC13495497#PMC13495497.s0.p009"
+          }
+        ]
+      },
+      {
+        "node": "node:c2204e3c6a13",
+        "label": "optical-acoustic phonon scattering",
+        "sources": [
+          "PMC12312154"
+        ],
+        "relations": [
+          {
+            "type": "compares",
+            "object": "phonon Umklapp scattering",
+            "conditions": [],
+            "evidence_strength": "indirect",
+            "locator": "PMC12312154#PMC12312154.s1.p017"
+          }
+        ]
+      },
+      {
+        "node": "node:0faf55352db1",
+        "label": "MOCVD",
+        "sources": [
+          "PMC12312154"
+        ],
+        "relations": [
+          {
+            "type": "uses",
+            "object": "monolayer WS2",
+            "conditions": [],
+            "evidence_strength": "direct",
+            "locator": "PMC12312154#PMC12312154.s3.p027"
+          }
+        ]
+      },
+      {
+        "node": "node:ed87b70ab22a",
+        "label": "phonon scattering",
+        "sources": [
+          "PMC12312154"
+        ],
+        "relations": []
+      },
+      {
+        "node": "node:9b2376e95629",
+        "label": "phonon Umklapp scattering",
+        "sources": [
+          "PMC12312154"
+        ],
+        "relations": []
+      },
+      {
+        "node": "node:653b451f28fb",
+        "label": "phonon-carrier scattering",
+        "sources": [
+          "PMC12312154"
+        ],
+        "relations": [
+          {
+            "type": "uses",
+            "object": "IVS",
+            "conditions": [],
+            "evidence_strength": "indirect",
+            "locator": "PMC12312154#PMC12312154.s1.p018"
+          }
+        ]
+      },
+      {
+        "node": "node:b95deef3579c",
+        "label": "PL",
+        "sources": [
+          "PMC12312154"
+        ],
+        "relations": []
+      },
+      {
+        "node": "node:a6fbe4d9d063",
+        "label": "scanning tunneling microscopy",
+        "sources": [
+          "PMC13495497"
+        ],
+        "relations": []
+      },
+      {
+        "node": "node:76904706e146",
+        "label": "scanning tunneling spectroscopy",
+        "sources": [
+          "PMC13495497"
+        ],
+        "relations": []
+      },
+      {
+        "node": "node:36ce5beaf78b",
+        "label": "SHG",
+        "sources": [
+          "PMC12312154"
+        ],
+        "relations": [
+          {
+            "type": "characterizes",
+            "object": "SHG",
+            "conditions": [],
+            "evidence_strength": "direct",
+            "locator": "PMC12312154#PMC12312154.s3.p031"
+          }
+        ]
+      },
+      {
+        "node": "node:c2e6cec98ebb",
+        "label": "TA",
+        "sources": [
+          "PMC12312154"
+        ],
+        "relations": [
+          {
+            "type": "uses",
+            "object": "monolayer WS2",
+            "conditions": [],
+            "evidence_strength": "indirect",
+            "locator": "PMC12312154#PMC12312154.s1.p007"
+          },
+          {
+            "type": "supports",
+            "object": "The 600–625 nm spectral region is dominated by the exciton A bleach",
+            "conditions": [],
+            "evidence_strength": "direct",
+            "locator": "PMC12312154#PMC12312154.s1.p007"
+          },
+          {
+            "type": "measures",
+            "object": "films = 75 fs",
+            "conditions": [],
+            "evidence_strength": "indirect",
+            "locator": "PMC12312154#fig2"
+          }
+        ]
+      },
+      {
+        "node": "node:ce7413d48d06",
+        "label": "TMD",
+        "sources": [
+          "PMC12312154"
+        ],
+        "relations": [
+          {
+            "type": "uses",
+            "object": "TMD",
+            "conditions": [],
+            "evidence_strength": "direct",
+            "locator": "PMC12312154#PMC12312154.s1.p025"
+          }
+        ]
+      },
+      {
+        "node": "node:ceca19ab857e",
+        "label": "trapping and trap-related scattering",
+        "sources": [
+          "PMC12312154"
+        ],
+        "relations": []
+      },
+      {
+        "node": "node:8db71fa26ce8",
+        "label": "treatment",
+        "sources": [
+          "PMC12312154"
+        ],
+        "relations": []
+      },
+      {
+        "node": "node:34a7871c7f5a",
+        "label": "ultrafast impulsive vibrational spectroscopy",
+        "sources": [
+          "PMC12312154"
+        ],
+        "relations": [
+          {
+            "type": "uses",
+            "object": "IVS",
+            "conditions": [],
+            "evidence_strength": "indirect",
+            "locator": "PMC12312154#fig1"
+          }
+        ]
+      }
+    ],
+    "answer_count": 27,
+    "non_empty": 14,
+    "undetermined": [
+      {
+        "question": "Were identical instrument settings used across papers?",
+        "status": "undetermined",
+        "reason": "settings are reported paper-locally and are not comparable across papers unless both state them"
+      }
+    ],
+    "evidence": [
+      "PMC13495497#PMC13495497.s0.p009",
+      "PMC13495497#PMC13495497.s0.p009",
+      "PMC13495497#PMC13495497.s0.p009",
+      "PMC12312154#PMC12312154.abstract.p001",
+      "PMC12312154#PMC12312154.s0.p003",
+      "PMC12312154#PMC12312154.s1.p005",
+      "PMC12312154#PMC12312154.s1.p005",
+      "PMC12312154#PMC12312154.s1.p005",
+      "PMC12312154#fig1",
+      "PMC12312154#PMC12312154.s1.p007",
+      "PMC12312154#fig2",
+      "PMC12312154#PMC12312154.s1.p018",
+      "PMC12312154#PMC12312154.s1.p025",
+      "PMC12312154#PMC12312154.s1.p026",
+      "PMC12312154#PMC12312154.s3.p027",
+      "PMC12312154#PMC12312154.s3.p031",
+      "PMC12312154#PMC12312154.s3.p031",
+      "PMC12312154#PMC12312154.s3.p031"
+    ]
+  },
+  {
+    "id": "Q3-cross-paper-metric-comparison",
+    "question": "Can the two papers be compared on a shared metric?",
+    "kind": "refusal_with_evidence",
+    "executed": true,
+    "subgraph": {
+      "nodes": [
+        "node:6b2a0aceab46",
+        "node:756d01575f6b",
+        "node:aa2704ad80cc",
+        "node:67aa5996e56c",
+        "node:2903381b42fe",
+        "node:e97502040ffc",
+        "node:c2ee42058c53"
+      ]
+    },
+    "answers": [
+      {
+        "source_id": "PMC12312154",
+        "metrics": [
+          {
+            "label": "Difference spectra = 700 fs",
+            "node": "node:756d01575f6b",
+            "locator": "PMC12312154#fig2"
+          },
+          {
+            "label": "emission = 2.03 eV",
+            "node": "node:aa2704ad80cc",
+            "locator": "PMC12312154#PMC12312154.s1.p005"
+          },
+          {
+            "label": "films = 75 fs",
+            "node": "node:67aa5996e56c",
+            "locator": "PMC12312154#fig2"
+          },
+          {
+            "label": "pulses achieved durations = 10 fs",
+            "node": "node:2903381b42fe",
+            "locator": "PMC12312154#PMC12312154.s3.p031"
+          },
+          {
+            "label": "temporal resolution = 10 fs",
+            "node": "node:c2ee42058c53",
+            "locator": "PMC12312154#PMC12312154.s3.p031"
+          }
+        ]
+      },
+      {
+        "source_id": "PMC13495497",
+        "metrics": [
+          {
+            "label": "binding energy = 160 meV",
+            "node": "node:6b2a0aceab46",
+            "locator": "PMC13495497#PMC13495497.abstract.p001"
+          },
+          {
+            "label": "binding energy = 160 meV",
+            "node": "node:6b2a0aceab46",
+            "locator": "PMC13495497#fig1"
+          },
+          {
+            "label": "binding energy = 160 meV",
+            "node": "node:6b2a0aceab46",
+            "locator": "PMC13495497#PMC13495497.s0.p010"
+          },
+          {
+            "label": "split unoccupied state = 0.26 eV",
+            "node": "node:e97502040ffc",
+            "locator": "PMC13495497#PMC13495497.s0.p009"
+          }
+        ]
+      }
+    ],
+    "answer_count": 2,
+    "undetermined": [
+      {
+        "question": "Is metric A in paper 1 comparable with metric B in paper 2?",
+        "status": "refused",
+        "reason": "the two papers differ in sample, treatment, and stated conditions; no shared sample or identical setting is reported, so a single comparative conclusion is not supported",
+        "rule": "task input revision: never combine conditions, samples or numeric results of different papers into one conclusion",
+        "what_would_be_needed": "the same sample id plus the same measurement setting reported in both papers"
+      }
+    ],
+    "evidence": [
+      "PMC13495497#PMC13495497.abstract.p001",
+      "PMC13495497#fig1",
+      "PMC13495497#PMC13495497.s0.p010",
+      "PMC12312154#fig2",
+      "PMC12312154#PMC12312154.s1.p005",
+      "PMC12312154#fig2",
+      "PMC12312154#PMC12312154.s3.p031",
+      "PMC13495497#PMC13495497.s0.p009",
+      "PMC12312154#PMC12312154.s3.p031"
+    ]
+  },
+  {
+    "id": "Q4-conflicts",
+    "question": "Which statements conflict, inside a paper or across the pair?",
+    "kind": "conflict_scan",
+    "executed": true,
+    "subgraph": {
+      "edges": []
+    },
+    "answers": [],
+    "answer_count": 0,
+    "undetermined": [
+      {
+        "question": "Does the corpus contain no conflicting statements?",
+        "status": "undetermined",
+        "reason": "no contradiction met the evidence bar, which is not the same as the papers agreeing; an explicit conflict may be phrased outside the cue set",
+        "human_takeover": "read the discussion sections against each other before asserting agreement"
+      }
+    ],
+    "evidence": []
+  }
+]

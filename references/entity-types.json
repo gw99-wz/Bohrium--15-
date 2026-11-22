@@ -1,0 +1,69 @@
+{
+  "version": "1.0",
+  "note": "Controlled entity types. An entity may only be given a type from this list; anything else is recorded as an ontology extension with a written reason, and QC-04 reports it. Definitions are deliberately narrow so that 'did the paper really say this' has an answer.",
+  "entity_types": [
+    {
+      "name": "researcher",
+      "zh": "研究者",
+      "definition": "A named person, group, or author collective who did the work or is credited with a claim.",
+      "include": ["author names", "named research groups", "consortium names"],
+      "exclude": ["institutions unless the paper makes the institution the actor", "the reader, 'we' without a referent"],
+      "surface_forms": ["J. Smith", "Smith et al.", "the Lee group"]
+    },
+    {
+      "name": "material",
+      "zh": "材料",
+      "definition": "A physical substance, sample, structure, or composition that the paper studies, uses, or measures.",
+      "include": ["chemical compounds and monolayers", "substrates", "samples", "defect structures", "heterostructures"],
+      "exclude": ["simulation software", "abstract concepts", "a material named only as an adjective for a method"],
+      "surface_forms": ["WS2", "tungsten disulfide", "monolayer WS2", "SiO2/Si substrate"]
+    },
+    {
+      "name": "method",
+      "zh": "方法",
+      "definition": "A procedure, instrument technique, treatment, calculation scheme, or workflow used to produce a result.",
+      "include": ["spectroscopy", "microscopy", "DFT", "CVD", "chemical treatment", "fitting procedure"],
+      "exclude": ["a material", "a result", "a general verb like 'measure' with no technique"],
+      "surface_forms": ["photoluminescence spectroscopy", "PL", "DFT", "n-BuLi treatment"]
+    },
+    {
+      "name": "task",
+      "zh": "任务",
+      "definition": "The scientific objective, question, or application the work addresses.",
+      "include": ["defect engineering", "exciton trapping", "band-gap engineering", "sensing"],
+      "exclude": ["a method", "a single measurement"],
+      "surface_forms": ["defect engineering", "exciton trapping"]
+    },
+    {
+      "name": "metric",
+      "zh": "指标",
+      "definition": "A measured or computed quantity with a value and, whenever the paper gives it, a unit.",
+      "include": ["binding energy", "emission energy", "linewidth", "lifetime", "PL quantum yield"],
+      "exclude": ["a bare number with no named quantity", "a qualitative adjective such as 'strong'"],
+      "surface_forms": ["binding energy of 2.1 eV", "PL intensity", "lifetime of 3.4 ps"]
+    },
+    {
+      "name": "conclusion",
+      "zh": "结论",
+      "definition": "A proposition the paper asserts, that could in principle be true or false.",
+      "include": ["stability claims", "assignment of an observed feature", "mechanistic statements"],
+      "exclude": ["a restatement of a number without a claim", "a hypothesis the paper explicitly rejects"],
+      "surface_forms": ["the on-top divacancy is thermodynamically stable", "trapping is vibronically coherent"]
+    }
+  ],
+  "instance_qualifiers": {
+    "note": "Two entities with the same surface form are NOT the same instance when one of these differs and the difference is stated. Mismatch forces must_not_merge.",
+    "fields": [
+      "sample_id",
+      "substrate",
+      "growth_method",
+      "pressure",
+      "temperature",
+      "dose",
+      "duration",
+      "dataset",
+      "simulation_setup"
+    ]
+  },
+  "cross_paper_rule": "A shared generic term (for example 'monolayer WS2' or 'DFT') is evidence that both papers talk about the same KIND of object, never that they used the same physical sample, model instance, dataset, or experimental condition."
+}

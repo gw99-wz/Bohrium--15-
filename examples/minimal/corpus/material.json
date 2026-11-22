@@ -1,0 +1,40 @@
+{
+  "papers": [
+    {
+      "source_id": "EX-A",
+      "doi": "10.0000/example.a",
+      "title": "Example paper A: a layered material studied by optical spectroscopy",
+      "authors": ["A. Example"],
+      "paragraphs": [
+        {
+          "paragraph_id": "ex-a-p1",
+          "section": "abstract",
+          "text": "We use photoluminescence spectroscopy to measure monolayer WS2 grown by chemical vapour deposition. The emission energy of the neutral exciton is 2.03 eV at room temperature."
+        },
+        {
+          "paragraph_id": "ex-a-p2",
+          "section": "discussion",
+          "text": "These observations suggest that defect engineering controls the exciton trapping efficiency in WS2."
+        }
+      ]
+    },
+    {
+      "source_id": "EX-B",
+      "doi": "10.0000/example.b",
+      "title": "Example paper B: the same material class under different conditions",
+      "authors": ["B. Example"],
+      "paragraphs": [
+        {
+          "paragraph_id": "ex-b-p1",
+          "section": "abstract",
+          "text": "Tungsten disulfide (WS2) monolayers were studied with photoluminescence spectroscopy under 4 K. The emission energy of the neutral exciton is 2.10 eV in this low temperature regime."
+        },
+        {
+          "paragraph_id": "ex-b-p2",
+          "section": "results",
+          "text": "Compared with the untreated sample, the treated sample shows a higher photoluminescence intensity at 4 K."
+        }
+      ]
+    }
+  ]
+}

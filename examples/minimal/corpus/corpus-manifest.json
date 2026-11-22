@@ -1,0 +1,30 @@
+{
+  "corpus_id": "example-minimal",
+  "provenance": "EXAMPLE — invented text, written only to show the interface. Not a real paper, not a challenge case.",
+  "synthetic": true,
+  "redistributable": true,
+  "papers": [
+    {
+      "source_id": "EX-A",
+      "role": "primary",
+      "doi": "10.0000/example.a",
+      "title": "Example paper A: a layered material studied by optical spectroscopy",
+      "authors": ["A. Example"],
+      "licence": "CC0 (invented for this example)",
+      "origin": "examples/minimal",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "paragraph_count": 2
+    },
+    {
+      "source_id": "EX-B",
+      "role": "secondary",
+      "doi": "10.0000/example.b",
+      "title": "Example paper B: the same material class under different conditions",
+      "authors": ["B. Example"],
+      "licence": "CC0 (invented for this example)",
+      "origin": "examples/minimal",
+      "sha256": "1111111111111111111111111111111111111111111111111111111111111111",
+      "paragraph_count": 2
+    }
+  ]
+}

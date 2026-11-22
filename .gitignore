@@ -6,15 +6,24 @@ __pycache__/
 venv/
 .pytest_cache/
 
-# Local run artifacts — never committed, never part of the deliverable
-work/
-out/
-tmp/
-*.log
+# Local run artifacts — never committed
+/work/
+/out/
+/output/
+/tmp/
+.testwork/
 
-# Downloaded third-party paper bundles (licence + size): re-fetched, not vendored
-corpus/
-data/raw/
+# Logs are scratch, except the ones kept as evidence
+*.log
+!evidence/**/*.log
+
+# Downloaded third-party paper bundles (licence + size): re-fetched, not vendored.
+# Reproduce them with: python scripts/fetch_corpus.py --out corpus/ws2-pair
+/corpus/
+/data/raw/
+
+# Curated evidence (evidence/) and the example output (examples/minimal/output/) ARE
+# committed: they are small and a reviewer should be able to check them without a rerun.
 
 # OS / editor
 Thumbs.db

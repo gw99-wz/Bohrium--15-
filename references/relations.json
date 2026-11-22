@@ -1,0 +1,108 @@
+{
+  "version": "1.0",
+  "note": "Controlled relation vocabulary. Every relation must name its type, its direction and the conditions that bound it. A relation whose types violate the signature is rejected (QC-03); a relation whose supporting quote is not verbatim in the cited paragraph is rejected outright.",
+  "relations": [
+    {
+      "type": "uses",
+      "zh": "使用",
+      "definition": "The subject employs the object as an instrument, technique, material, or procedure.",
+      "subject_types": ["method", "researcher", "task"],
+      "object_types": ["method", "material", "task"],
+      "direction": "subject -> object",
+      "verbatim_cues": ["we use", "using", "was measured by", "employ", "with", "by means of"],
+      "conditions_required": false,
+      "confusable_with": ["mentions", "measures"],
+      "reject_when": "the sentence only lists the term among others, or the object appears only in the introduction as background"
+    },
+    {
+      "type": "compares",
+      "zh": "比较",
+      "definition": "The subject is explicitly set against the object on a stated basis.",
+      "subject_types": ["method", "material", "conclusion"],
+      "object_types": ["method", "material"],
+      "direction": "subject -> object",
+      "verbatim_cues": ["compared with", "compared to", "in contrast to", "versus", "relative to"],
+      "conditions_required": true,
+      "confusable_with": ["outperforms", "uses"],
+      "reject_when": "two things merely co-occur in the text; no comparative wording and no shared basis"
+    },
+    {
+      "type": "outperforms",
+      "zh": "优于",
+      "definition": "The subject is asserted to be better than the object, on a named metric or task.",
+      "subject_types": ["method", "material"],
+      "object_types": ["method", "material"],
+      "direction": "subject -> object",
+      "verbatim_cues": ["better", "higher", "lower", "improved", "enhanced", "outperform", "superior"],
+      "conditions_required": true,
+      "confusable_with": ["compares"],
+      "reject_when": "the improvement is stated for a different metric, sample, or condition than the one being claimed; a bare adjective with the basis missing"
+    },
+    {
+      "type": "supports",
+      "zh": "支持",
+      "definition": "The subject is offered as evidence for the object conclusion.",
+      "subject_types": ["method", "conclusion", "metric"],
+      "object_types": ["conclusion"],
+      "direction": "subject -> object",
+      "verbatim_cues": ["consistent with", "supports", "confirms", "consistent with a", "in agreement with", "evidence for"],
+      "conditions_required": false,
+      "confusable_with": ["uses"],
+      "reject_when": "the paper reports the observation but draws no conclusion, or the support is only asserted in a review sentence"
+    },
+    {
+      "type": "contradicts",
+      "zh": "矛盾",
+      "definition": "The subject is stated to conflict with the object.",
+      "subject_types": ["conclusion", "metric"],
+      "object_types": ["conclusion"],
+      "direction": "subject -> object",
+      "verbatim_cues": ["contradicts", "inconsistent with", "disagrees", "in conflict with", "unlike", "however"],
+      "conditions_required": false,
+      "confusable_with": ["compares"],
+      "reject_when": "'however' introduces a new topic rather than a conflicting claim; both sides are not quoted"
+    },
+    {
+      "type": "measures",
+      "zh": "测量",
+      "definition": "The subject produces a numeric or categorical value for the object metric.",
+      "subject_types": ["method", "researcher"],
+      "object_types": ["metric"],
+      "direction": "subject -> object",
+      "verbatim_cues": ["measured", "yields", "gives", "reports", "of about", "corresponding to"],
+      "conditions_required": true,
+      "confusable_with": ["uses"],
+      "reject_when": "no value or unit can be found in the quoted span, so the metric is only named, not measured"
+    },
+    {
+      "type": "characterizes",
+      "zh": "表征",
+      "definition": "The subject is applied to the object material in order to reveal its properties.",
+      "subject_types": ["method"],
+      "object_types": ["material"],
+      "direction": "subject -> object",
+      "verbatim_cues": ["characterised by", "characterized by", "was probed with", "recorded on", "taken on"],
+      "conditions_required": false,
+      "confusable_with": ["uses"],
+      "reject_when": "the material is only the sample holder or the substrate of a different measurement"
+    }
+  ],
+  "evidence_strength": [
+    {
+      "level": "direct",
+      "definition": "The quoted sentence states the relation in its own words; no inference needed."
+    },
+    {
+      "level": "table",
+      "definition": "The relation is carried by a caption, table cell, or figure label rather than running prose."
+    },
+    {
+      "level": "indirect",
+      "definition": "The relation needs one stated premise beyond the quote; the premise must be recorded in `basis`."
+    },
+    {
+      "level": "inferred",
+      "definition": "The relation is a model reading that the text does not state. Allowed only if flagged, and it downgrades the run to partial."
+    }
+  ]
+}

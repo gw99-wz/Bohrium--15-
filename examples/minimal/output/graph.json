@@ -1,0 +1,418 @@
+{
+  "nodes": [
+    {
+      "id": "node:96f80947c1d3",
+      "type": "conclusion",
+      "label": "These observations suggest that defect engineering controls the exciton trapping efficiency in WS2",
+      "aliases": [],
+      "canonical": "these observations suggest that defect engineering controls exciton trapping efficiency in ws2",
+      "sources": [
+        "EX-A"
+      ],
+      "scope": "single_paper",
+      "same_instance_across_papers": null,
+      "mentions": [
+        {
+          "source_id": "EX-A",
+          "paragraph_id": "ex-a-p2",
+          "locator": {
+            "source_id": "EX-A",
+            "paragraph_id": "ex-a-p2",
+            "section": "discussion",
+            "char_start": 0,
+            "char_end": 99,
+            "match_kind": "exact",
+            "matched_text": "These observations suggest that defect engineering controls the exciton trapping efficiency in WS2.",
+            "paragraph_sha256": "a27769ce694fcb2f16affb70b236b700cfd6d21637d3b7560c95741a8b8b8e8c"
+          },
+          "quote": "These observations suggest that defect engineering controls the exciton trapping efficiency in WS2.",
+          "rule": "conclusion_cue",
+          "evidence_strength": "direct"
+        }
+      ]
+    },
+    {
+      "id": "node:5626c00bdb74",
+      "type": "material",
+      "label": "WS2",
+      "aliases": [],
+      "canonical": "tungsten disulfide",
+      "sources": [
+        "EX-A",
+        "EX-B"
+      ],
+      "scope": "cross_paper_concept",
+      "same_instance_across_papers": false,
+      "mentions": [
+        {
+          "source_id": "EX-A",
+          "paragraph_id": "ex-a-p1",
+          "locator": {
+            "source_id": "EX-A",
+            "paragraph_id": "ex-a-p1",
+            "section": "abstract",
+            "char_start": 0,
+            "char_end": 99,
+            "match_kind": "exact",
+            "matched_text": "We use photoluminescence spectroscopy to measure monolayer WS2 grown by chemical vapour deposition.",
+            "paragraph_sha256": "fc456e15c4ec81300589a3b987b7a79b15f0f64777c941bc9165962426671429"
+          },
+          "quote": "We use photoluminescence spectroscopy to measure monolayer WS2 grown by chemical vapour deposition.",
+          "rule": "material_formula",
+          "evidence_strength": "direct"
+        },
+        {
+          "source_id": "EX-A",
+          "paragraph_id": "ex-a-p2",
+          "locator": {
+            "source_id": "EX-A",
+            "paragraph_id": "ex-a-p2",
+            "section": "discussion",
+            "char_start": 0,
+            "char_end": 99,
+            "match_kind": "exact",
+            "matched_text": "These observations suggest that defect engineering controls the exciton trapping efficiency in WS2.",
+            "paragraph_sha256": "a27769ce694fcb2f16affb70b236b700cfd6d21637d3b7560c95741a8b8b8e8c"
+          },
+          "quote": "These observations suggest that defect engineering controls the exciton trapping efficiency in WS2.",
+          "rule": "material_formula",
+          "evidence_strength": "direct"
+        },
+        {
+          "source_id": "EX-B",
+          "paragraph_id": "ex-b-p1",
+          "locator": {
+            "source_id": "EX-B",
+            "paragraph_id": "ex-b-p1",
+            "section": "abstract",
+            "char_start": 0,
+            "char_end": 95,
+            "match_kind": "exact",
+            "matched_text": "Tungsten disulfide (WS2) monolayers were studied with photoluminescence spectroscopy under 4 K.",
+            "paragraph_sha256": "517b9667dea24377f20bbe9f009b312e291788c3b5d6a2cfd765ca36bc5438d6"
+          },
+          "quote": "Tungsten disulfide (WS2) monolayers were studied with photoluminescence spectroscopy under 4 K.",
+          "rule": "material_formula",
+          "evidence_strength": "direct"
+        }
+      ]
+    },
+    {
+      "id": "node:8754461853dd",
+      "type": "material",
+      "label": "monolayer WS2",
+      "aliases": [],
+      "canonical": "ws2",
+      "sources": [
+        "EX-A"
+      ],
+      "scope": "single_paper",
+      "same_instance_across_papers": null,
+      "mentions": [
+        {
+          "source_id": "EX-A",
+          "paragraph_id": "ex-a-p1",
+          "locator": {
+            "source_id": "EX-A",
+            "paragraph_id": "ex-a-p1",
+            "section": "abstract",
+            "char_start": 0,
+            "char_end": 99,
+            "match_kind": "exact",
+            "matched_text": "We use photoluminescence spectroscopy to measure monolayer WS2 grown by chemical vapour deposition.",
+            "paragraph_sha256": "fc456e15c4ec81300589a3b987b7a79b15f0f64777c941bc9165962426671429"
+          },
+          "quote": "We use photoluminescence spectroscopy to measure monolayer WS2 grown by chemical vapour deposition.",
+          "rule": "material_monolayer",
+          "evidence_strength": "direct"
+        }
+      ]
+    },
+    {
+      "id": "node:5a01c4985e70",
+      "type": "method",
+      "label": "photoluminescence spectroscopy",
+      "aliases": [],
+      "canonical": "photoluminescence spectroscopy",
+      "sources": [
+        "EX-A"
+      ],
+      "scope": "single_paper",
+      "same_instance_across_papers": null,
+      "mentions": [
+        {
+          "source_id": "EX-A",
+          "paragraph_id": "ex-a-p1",
+          "locator": {
+            "source_id": "EX-A",
+            "paragraph_id": "ex-a-p1",
+            "section": "abstract",
+            "char_start": 0,
+            "char_end": 99,
+            "match_kind": "exact",
+            "matched_text": "We use photoluminescence spectroscopy to measure monolayer WS2 grown by chemical vapour deposition.",
+            "paragraph_sha256": "fc456e15c4ec81300589a3b987b7a79b15f0f64777c941bc9165962426671429"
+          },
+          "quote": "We use photoluminescence spectroscopy to measure monolayer WS2 grown by chemical vapour deposition.",
+          "rule": "method_suffix",
+          "evidence_strength": "direct"
+        }
+      ]
+    },
+    {
+      "id": "node:09fdbbd75030",
+      "type": "method",
+      "label": "studied with photoluminescence spectroscopy",
+      "aliases": [],
+      "canonical": "studied with photoluminescence spectroscopy",
+      "sources": [
+        "EX-B"
+      ],
+      "scope": "single_paper",
+      "same_instance_across_papers": null,
+      "mentions": [
+        {
+          "source_id": "EX-B",
+          "paragraph_id": "ex-b-p1",
+          "locator": {
+            "source_id": "EX-B",
+            "paragraph_id": "ex-b-p1",
+            "section": "abstract",
+            "char_start": 0,
+            "char_end": 95,
+            "match_kind": "exact",
+            "matched_text": "Tungsten disulfide (WS2) monolayers were studied with photoluminescence spectroscopy under 4 K.",
+            "paragraph_sha256": "517b9667dea24377f20bbe9f009b312e291788c3b5d6a2cfd765ca36bc5438d6"
+          },
+          "quote": "Tungsten disulfide (WS2) monolayers were studied with photoluminescence spectroscopy under 4 K.",
+          "rule": "method_suffix",
+          "evidence_strength": "direct"
+        }
+      ]
+    },
+    {
+      "id": "node:b83e1efc86c3",
+      "type": "metric",
+      "label": "higher photoluminescence intensity = 4 K",
+      "aliases": [],
+      "canonical": "higher photoluminescence intensity 4 k",
+      "sources": [
+        "EX-B"
+      ],
+      "scope": "single_paper",
+      "same_instance_across_papers": null,
+      "mentions": [
+        {
+          "source_id": "EX-B",
+          "paragraph_id": "ex-b-p2",
+          "locator": {
+            "source_id": "EX-B",
+            "paragraph_id": "ex-b-p2",
+            "section": "results",
+            "char_start": 0,
+            "char_end": 105,
+            "match_kind": "exact",
+            "matched_text": "Compared with the untreated sample, the treated sample shows a higher photoluminescence intensity at 4 K.",
+            "paragraph_sha256": "ccaf05710f4d47d7d785193c2758b46b8ee24f1f4b5872882f9b353b7461ae19"
+          },
+          "quote": "Compared with the untreated sample, the treated sample shows a higher photoluminescence intensity at 4 K.",
+          "rule": "metric_value",
+          "evidence_strength": "direct"
+        }
+      ]
+    },
+    {
+      "id": "node:ca909cb41673",
+      "type": "metric",
+      "label": "neutral exciton = 2.03 eV",
+      "aliases": [],
+      "canonical": "neutral exciton 2 03 ev",
+      "sources": [
+        "EX-A"
+      ],
+      "scope": "single_paper",
+      "same_instance_across_papers": null,
+      "mentions": [
+        {
+          "source_id": "EX-A",
+          "paragraph_id": "ex-a-p1",
+          "locator": {
+            "source_id": "EX-A",
+            "paragraph_id": "ex-a-p1",
+            "section": "abstract",
+            "char_start": 100,
+            "char_end": 174,
+            "match_kind": "exact",
+            "matched_text": "The emission energy of the neutral exciton is 2.03 eV at room temperature.",
+            "paragraph_sha256": "fc456e15c4ec81300589a3b987b7a79b15f0f64777c941bc9165962426671429"
+          },
+          "quote": "The emission energy of the neutral exciton is 2.03 eV at room temperature.",
+          "rule": "metric_value",
+          "evidence_strength": "direct"
+        }
+      ]
+    },
+    {
+      "id": "node:6e4b250e3ffe",
+      "type": "metric",
+      "label": "neutral exciton = 2.10 eV",
+      "aliases": [],
+      "canonical": "neutral exciton 2 10 ev",
+      "sources": [
+        "EX-B"
+      ],
+      "scope": "single_paper",
+      "same_instance_across_papers": null,
+      "mentions": [
+        {
+          "source_id": "EX-B",
+          "paragraph_id": "ex-b-p1",
+          "locator": {
+            "source_id": "EX-B",
+            "paragraph_id": "ex-b-p1",
+            "section": "abstract",
+            "char_start": 96,
+            "char_end": 181,
+            "match_kind": "exact",
+            "matched_text": "The emission energy of the neutral exciton is 2.10 eV in this low temperature regime.",
+            "paragraph_sha256": "517b9667dea24377f20bbe9f009b312e291788c3b5d6a2cfd765ca36bc5438d6"
+          },
+          "quote": "The emission energy of the neutral exciton is 2.10 eV in this low temperature regime.",
+          "rule": "metric_value",
+          "evidence_strength": "direct"
+        }
+      ]
+    },
+    {
+      "id": "node:54ab1ad9a51b",
+      "type": "task",
+      "label": "defect engineering",
+      "aliases": [],
+      "canonical": "defect engineering",
+      "sources": [
+        "EX-A"
+      ],
+      "scope": "single_paper",
+      "same_instance_across_papers": null,
+      "mentions": [
+        {
+          "source_id": "EX-A",
+          "paragraph_id": "ex-a-p2",
+          "locator": {
+            "source_id": "EX-A",
+            "paragraph_id": "ex-a-p2",
+            "section": "discussion",
+            "char_start": 0,
+            "char_end": 99,
+            "match_kind": "exact",
+            "matched_text": "These observations suggest that defect engineering controls the exciton trapping efficiency in WS2.",
+            "paragraph_sha256": "a27769ce694fcb2f16affb70b236b700cfd6d21637d3b7560c95741a8b8b8e8c"
+          },
+          "quote": "These observations suggest that defect engineering controls the exciton trapping efficiency in WS2.",
+          "rule": "task_lexicon",
+          "evidence_strength": "direct"
+        }
+      ]
+    },
+    {
+      "id": "node:a8c4f9f9656a",
+      "type": "task",
+      "label": "exciton trapping",
+      "aliases": [],
+      "canonical": "exciton trapping",
+      "sources": [
+        "EX-A"
+      ],
+      "scope": "single_paper",
+      "same_instance_across_papers": null,
+      "mentions": [
+        {
+          "source_id": "EX-A",
+          "paragraph_id": "ex-a-p2",
+          "locator": {
+            "source_id": "EX-A",
+            "paragraph_id": "ex-a-p2",
+            "section": "discussion",
+            "char_start": 0,
+            "char_end": 99,
+            "match_kind": "exact",
+            "matched_text": "These observations suggest that defect engineering controls the exciton trapping efficiency in WS2.",
+            "paragraph_sha256": "a27769ce694fcb2f16affb70b236b700cfd6d21637d3b7560c95741a8b8b8e8c"
+          },
+          "quote": "These observations suggest that defect engineering controls the exciton trapping efficiency in WS2.",
+          "rule": "task_lexicon",
+          "evidence_strength": "direct"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge:ca5a615802da",
+      "type": "uses",
+      "subject": "node:5a01c4985e70",
+      "object": "node:5626c00bdb74",
+      "subject_label": "photoluminescence spectroscopy",
+      "object_label": "WS2",
+      "direction": "subject -> object",
+      "conditions": [],
+      "evidence_strength": "direct",
+      "basis": "",
+      "evidence": {
+        "locator": {
+          "source_id": "EX-A",
+          "paragraph_id": "ex-a-p1",
+          "section": "abstract",
+          "char_start": 0,
+          "char_end": 99,
+          "match_kind": "exact",
+          "matched_text": "We use photoluminescence spectroscopy to measure monolayer WS2 grown by chemical vapour deposition.",
+          "paragraph_sha256": "fc456e15c4ec81300589a3b987b7a79b15f0f64777c941bc9165962426671429"
+        },
+        "quote": "We use photoluminescence spectroscopy to measure monolayer WS2 grown by chemical vapour deposition."
+      }
+    },
+    {
+      "id": "edge:46c534d78efc",
+      "type": "uses",
+      "subject": "node:09fdbbd75030",
+      "object": "node:5626c00bdb74",
+      "subject_label": "studied with photoluminescence spectroscopy",
+      "object_label": "WS2",
+      "direction": "subject -> object",
+      "conditions": [
+        "under 4 K"
+      ],
+      "evidence_strength": "indirect",
+      "basis": "cue is the preposition 'with'",
+      "evidence": {
+        "locator": {
+          "source_id": "EX-B",
+          "paragraph_id": "ex-b-p1",
+          "section": "abstract",
+          "char_start": 0,
+          "char_end": 95,
+          "match_kind": "exact",
+          "matched_text": "Tungsten disulfide (WS2) monolayers were studied with photoluminescence spectroscopy under 4 K.",
+          "paragraph_sha256": "517b9667dea24377f20bbe9f009b312e291788c3b5d6a2cfd765ca36bc5438d6"
+        },
+        "quote": "Tungsten disulfide (WS2) monolayers were studied with photoluminescence spectroscopy under 4 K."
+      }
+    }
+  ],
+  "issues": [],
+  "stats": {
+    "nodes_by_type": {
+      "conclusion": 1,
+      "material": 2,
+      "method": 2,
+      "metric": 3,
+      "task": 2
+    },
+    "edges_by_type": {
+      "uses": 2
+    },
+    "nodes": 10,
+    "edges": 2
+  }
+}

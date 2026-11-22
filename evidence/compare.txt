@@ -1,0 +1,18 @@
+﻿metric                                      skill          baseline
+-------------------------------------------------------------------
+nodes                                          97                96
+edges                                          21                13
+evidence verified rate                        1.0               0.0
+edges with char offsets                        21                 0
+duplicate concept nodes                         0                 3
+cross-paper metric nodes                        0                 0
+merge records                                   5                 4
+merges with a stated basis                      5                 4
+must-not-merge records                          3                 0
+queries recording a refusal                     4                 0
+contract resolved                            True              True
+status                                    success           success
+success claim self-consistent                True             False
+
+E2 tamper: skill detected=True status=refused | baseline detected=False status=success
+E3 repeat: identical ids=True counts=True (118 ids)

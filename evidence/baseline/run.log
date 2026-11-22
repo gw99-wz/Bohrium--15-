@@ -1,0 +1,6 @@
+status=success
+mode=baseline
+counts={"nodes": 96, "edges": 13, "mentions": 253, "queries": 0, "rejected_quotes": 0, "merges": 4, "must_not_merge": 0}
+limit: entities came from the rule extractor: researcher and task coverage is lexicon-bound, so a production run should pass --draft authored from the papers
+limit: baseline mode declares success without verifying a single quote; running validate_result.py on its result.json fails V12 by construction
+limit: locators are corpus JATS paragraph ids; this Skill never emits a PDF page number

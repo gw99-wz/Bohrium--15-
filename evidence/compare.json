@@ -1,0 +1,64 @@
+{
+  "corpus": "corpus\\ws2-pair",
+  "note": "baseline = what the same extraction produces with no alias reconciliation, no offset verification, no instance/condition reasoning and no contract resolution. It is an emulation of a no-skill run, not a recorded model session.",
+  "E1_clean": {
+    "skill": {
+      "nodes": 97,
+      "edges": 21,
+      "edges_with_located_quote": 21,
+      "edges_with_char_offsets": 21,
+      "evidence_verified_rate": 1.0,
+      "rejected_quotes": 0,
+      "duplicate_concept_nodes": 0,
+      "cross_paper_metric_nodes": 0,
+      "merge_records": 5,
+      "merges_with_basis": 5,
+      "must_not_merge_records": 3,
+      "queries": 4,
+      "queries_with_answers": 3,
+      "queries_recording_undetermined": 4,
+      "contract_resolved": true,
+      "contract_source": "case.json:output_contract",
+      "status": "success",
+      "self_consistent_success": true
+    },
+    "baseline": {
+      "nodes": 96,
+      "edges": 13,
+      "edges_with_located_quote": 0,
+      "edges_with_char_offsets": 0,
+      "evidence_verified_rate": 0.0,
+      "rejected_quotes": 0,
+      "duplicate_concept_nodes": 3,
+      "cross_paper_metric_nodes": 0,
+      "merge_records": 4,
+      "merges_with_basis": 4,
+      "must_not_merge_records": 0,
+      "queries": 0,
+      "queries_with_answers": 0,
+      "queries_recording_undetermined": 0,
+      "contract_resolved": true,
+      "contract_source": "case.json:output_contract",
+      "status": "success",
+      "self_consistent_success": false
+    }
+  },
+  "E2_tamper": {
+    "applicable": true,
+    "original_quote": "The 600–625 nm spectral region is dominated by the exciton A bleach, and the 510–530 nm by the exciton B bleach, consistent with previously reported TA studies ",
+    "corrupted_quote": "The 601–625 nm spectral region is dominated by the exciton A bleach, and the 510–530 nm by the exciton B bleach, consistent with previously reported TA studies ",
+    "skill_rejected": 1,
+    "skill_status": "refused",
+    "baseline_rejected": 0,
+    "baseline_status": "success",
+    "detected_by_skill": true,
+    "detected_by_baseline": false
+  },
+  "E3_determinism": {
+    "identical_ids": true,
+    "identical_counts": true,
+    "id_count": 118,
+    "status_a": "success",
+    "status_b": "success"
+  }
+}

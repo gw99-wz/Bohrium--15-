@@ -1,0 +1,61 @@
+{
+  "checks": [
+    {
+      "code": "QC-01",
+      "severity": "critical",
+      "passed": true,
+      "detail": "118 ids, 118 unique"
+    },
+    {
+      "code": "QC-02",
+      "severity": "critical",
+      "passed": true,
+      "detail": "every node carries at least one verbatim mention"
+    },
+    {
+      "code": "QC-03",
+      "severity": "critical",
+      "passed": true,
+      "detail": "every edge carries a located quote"
+    },
+    {
+      "code": "QC-04",
+      "severity": "warn",
+      "passed": true,
+      "detail": "0 rejected quotes"
+    },
+    {
+      "code": "QC-05",
+      "severity": "warn",
+      "passed": false,
+      "detail": "comparative and measured relations state their basis"
+    },
+    {
+      "code": "QC-06",
+      "severity": "critical",
+      "passed": true,
+      "detail": "contract fields missing: none"
+    },
+    {
+      "code": "QC-07",
+      "severity": "warn",
+      "passed": true,
+      "detail": "duplicate concept nodes: none"
+    },
+    {
+      "code": "QC-08",
+      "severity": "critical",
+      "passed": true,
+      "detail": "all node types within the controlled vocabulary"
+    },
+    {
+      "code": "QC-09",
+      "severity": "warn",
+      "passed": true,
+      "detail": "no evidence span is shorter than 15 characters (too short to be meaningful)"
+    }
+  ],
+  "critical_failures": 0,
+  "warnings": 1,
+  "contract_source": "case.json:output_contract"
+}

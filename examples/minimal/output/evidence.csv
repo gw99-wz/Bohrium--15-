@@ -1,0 +1,15 @@
+kind,id,label,source_id,paragraph_id,char_start,char_end,match_kind,quote
+entity,node:96f80947c1d3,These observations suggest that defect engineering controls the exciton trapping efficiency in WS2,EX-A,ex-a-p2,0,99,exact,These observations suggest that defect engineering controls the exciton trapping efficiency in WS2.
+entity,node:5626c00bdb74,WS2,EX-A,ex-a-p1,0,99,exact,We use photoluminescence spectroscopy to measure monolayer WS2 grown by chemical vapour deposition.
+entity,node:5626c00bdb74,WS2,EX-A,ex-a-p2,0,99,exact,These observations suggest that defect engineering controls the exciton trapping efficiency in WS2.
+entity,node:5626c00bdb74,WS2,EX-B,ex-b-p1,0,95,exact,Tungsten disulfide (WS2) monolayers were studied with photoluminescence spectroscopy under 4 K.
+entity,node:8754461853dd,monolayer WS2,EX-A,ex-a-p1,0,99,exact,We use photoluminescence spectroscopy to measure monolayer WS2 grown by chemical vapour deposition.
+entity,node:5a01c4985e70,photoluminescence spectroscopy,EX-A,ex-a-p1,0,99,exact,We use photoluminescence spectroscopy to measure monolayer WS2 grown by chemical vapour deposition.
+entity,node:09fdbbd75030,studied with photoluminescence spectroscopy,EX-B,ex-b-p1,0,95,exact,Tungsten disulfide (WS2) monolayers were studied with photoluminescence spectroscopy under 4 K.
+entity,node:b83e1efc86c3,higher photoluminescence intensity = 4 K,EX-B,ex-b-p2,0,105,exact,"Compared with the untreated sample, the treated sample shows a higher photoluminescence intensity at 4 K."
+entity,node:ca909cb41673,neutral exciton = 2.03 eV,EX-A,ex-a-p1,100,174,exact,The emission energy of the neutral exciton is 2.03 eV at room temperature.
+entity,node:6e4b250e3ffe,neutral exciton = 2.10 eV,EX-B,ex-b-p1,96,181,exact,The emission energy of the neutral exciton is 2.10 eV in this low temperature regime.
+entity,node:54ab1ad9a51b,defect engineering,EX-A,ex-a-p2,0,99,exact,These observations suggest that defect engineering controls the exciton trapping efficiency in WS2.
+entity,node:a8c4f9f9656a,exciton trapping,EX-A,ex-a-p2,0,99,exact,These observations suggest that defect engineering controls the exciton trapping efficiency in WS2.
+relation,edge:ca5a615802da,photoluminescence spectroscopy uses WS2,EX-A,ex-a-p1,0,99,exact,We use photoluminescence spectroscopy to measure monolayer WS2 grown by chemical vapour deposition.
+relation,edge:46c534d78efc,studied with photoluminescence spectroscopy uses WS2,EX-B,ex-b-p1,0,95,exact,Tungsten disulfide (WS2) monolayers were studied with photoluminescence spectroscopy under 4 K.
