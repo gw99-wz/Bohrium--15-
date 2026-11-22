@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+
+# Local run artifacts — never committed, never part of the deliverable
+work/
+out/
+tmp/
+*.log
+
+# Downloaded third-party paper bundles (licence + size): re-fetched, not vendored
+corpus/
+data/raw/
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.idea/
+.vscode/
